@@ -10,7 +10,8 @@ public class AcaoASerExecutada implements Job {
 
 	@Override
 	public void execute(JobExecutionContext context) throws JobExecutionException {
-		System.out.println(String.format("Executando algo em %s", LocalDateTime.now()));
+		System.out.println(String.format("Executando algo em %s por %s", LocalDateTime.now(),
+				context.getTrigger()));
 
 	}
 
