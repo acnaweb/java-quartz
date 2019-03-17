@@ -20,6 +20,8 @@ public class Main {
 	private static final String CRON_CADA_1_SEGUNDO = "0/1 * * * * ?";
 	private static final String CRON_CADA_5_SEGUNDOS = "0/5 * * * * ?";
 	private static final String CRON_CADA_10_SEGUNDOS = "0/10 * * * * ?";
+	private static final String CRON_CADA_30_SEGUNDOS = "0/30 * * * * ?";
+
 
 	public static void main(String[] args) {
 		SchedulerFactory factory = new StdSchedulerFactory();

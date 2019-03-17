@@ -21,6 +21,7 @@
 		<!-- SDK -->
 		<jdk.version>1.8</jdk.version>
 		
+		<!-- QUARTZ -->
 		<quartz.version>2.3.0</quartz.version>
 
 		<!-- MAVEN -->
